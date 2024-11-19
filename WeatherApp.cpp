@@ -81,7 +81,7 @@ void displayWeatherDetails(const WeatherReport& weather) {
 // This functio is to Add city to favourites upto 3 cities
 bool addCityToFavourites(vector<WeatherReport>& favourites, const WeatherReport& city) {
     if (favourites.size() < 3) { //checking if list already has 3 cities 
-        favourites.push_back(city); / add city to list
+        favourites.push_back(city); // add city to list
         return true;
     }
     cout << "Max 3 cities allowed in favourites.\n";
